@@ -1,5 +1,5 @@
 // ============================================================
-// COMPONENT REGISTRY — Phase 4
+// COMPONENT REGISTRY
 // Maps componentType strings to their ComponentDefinition
 // ============================================================
 

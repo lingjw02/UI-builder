@@ -1,7 +1,24 @@
-node_modules
-dist
-dist-ssr
-*.local
+# Dependencies
+node_modules/
+
+# Production Build
+dist/
+dist-ssr/
+
+# Local Environment
 .env
-.env.local
+.env.*
+*.local
+
+# TypeScript Cache
 *.tsbuildinfo
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Testing
+coverage/

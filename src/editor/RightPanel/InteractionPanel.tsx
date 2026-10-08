@@ -1,5 +1,5 @@
 // ============================================================
-// INTERACTION PANEL — Phase 10
+// INTERACTION PANEL
 // Right Panel "Interact" tab: view/add/edit/delete interactions
 // ============================================================
 

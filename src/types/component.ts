@@ -1,6 +1,5 @@
 // ============================================================
 // COMPONENT DEFINITION TYPES
-// Phase 4: Component System
 // ============================================================
 
 export type ComponentCategory =

@@ -1,5 +1,5 @@
 // ============================================================
-// RESPONSIVE ENGINE TESTS — Phase 15
+// RESPONSIVE ENGINE TESTS
 // ============================================================
 
 import { describe, it, expect } from 'vitest'
@@ -11,7 +11,7 @@ import {
 import { createFrame, createComponentInstance } from '../store/projectFactory'
 import type { Frame } from '../types'
 
-describe('Phase 15 — Responsive Engine', () => {
+describe('Responsive Engine', () => {
   it('contains presets for desktop, laptop, ipad, iphone, android', () => {
     const ids = DEVICE_PRESETS.map(p => p.id)
     expect(ids).toContain('desktop')

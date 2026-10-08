@@ -1,8 +1,8 @@
 // ============================================================
-// SHARED COMPONENT STORE — Phase 8
+// SHARED COMPONENT STORE
 // Manages global reusable component definitions + local instance states
 //
-// Architecture Rule B (from BUILD_PHASES.md):
+// Design Principle:
 //   SharedComponent has ONE canonical definition.
 //   Multiple pages reference it by ID.
 //   Local state (e.g. active nav item) lives on the page-level instance override.

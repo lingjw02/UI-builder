@@ -1,10 +1,5 @@
 // ============================================================
 // PROTOTYPE ENGINES & STORES TESTS
-// Phase 8: Shared Components
-// Phase 9: State Engine
-// Phase 10: Interaction Engine
-// Phase 11: Flow Engine
-// Phase 12: Prototype Runtime Integration
 // ============================================================
 
 import { describe, it, expect, beforeEach } from 'vitest'
@@ -15,7 +10,7 @@ import { InteractionExecutor, createInteraction, type RuntimeContext } from '../
 import { createComponentInstance } from '../store/projectFactory'
 import type { ComponentInstance } from '../types'
 
-describe('Phase 8 — Shared Component Store', () => {
+describe('Shared Component Store', () => {
   beforeEach(() => {
     useSharedComponentStore.setState({ sharedComponents: [], instanceOverrides: {} })
   })
@@ -53,7 +48,7 @@ describe('Phase 8 — Shared Component Store', () => {
   })
 })
 
-describe('Phase 9 — State Engine', () => {
+describe('State Engine', () => {
   beforeEach(() => {
     useStateEngine.setState({ states: {} })
   })
@@ -80,7 +75,7 @@ describe('Phase 9 — State Engine', () => {
   })
 })
 
-describe('Phase 10 & 11 & 12 — Interaction & Flow Engines', () => {
+describe('Interaction & Flow Engines', () => {
   beforeEach(() => {
     useFlowEngine.getState().resetNavigation('page-start')
   })

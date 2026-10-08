@@ -1,5 +1,5 @@
 // ============================================================
-// RESPONSIVE BREAKPOINT & DEVICE PRESET ENGINE — Phase 15
+// RESPONSIVE BREAKPOINT & DEVICE PRESET ENGINE
 // Manages device presets, grid reflow calculations, and breakpoints
 // ============================================================
 

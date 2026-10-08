@@ -1,6 +1,6 @@
 // ============================================================
 // MOTION PANEL — Right Panel Motion Tab
-// Phase 13: Configure animation presets, duration, delay, easing
+// Configure animation presets, duration, delay, easing
 // ============================================================
 
 import React from 'react'

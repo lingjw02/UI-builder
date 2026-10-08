@@ -1,6 +1,6 @@
 // ============================================================
 // LAYOUT ENGINE TESTS
-// Phase 3: Grid System Acceptance Tests
+// Grid System Acceptance Tests
 // ============================================================
 
 import { describe, it, expect } from 'vitest'

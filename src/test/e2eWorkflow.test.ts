@@ -1,6 +1,6 @@
 // ============================================================
-// PHASE 21 — FINAL QA COMPLETE WORKFLOW INTEGRATION TEST
-// Verifies the entire sequence from BUILD_PHASES.md Section 3:
+// END-TO-END WORKFLOW INTEGRATION TESTS
+// Verifies the complete lifecycle workflow:
 //   1. Create Project
 //   2. Create Dashboard Page
 //   3. Create Laptop Frame (1280x800)
@@ -21,7 +21,7 @@ import { InteractionExecutor, createInteraction, type RuntimeContext } from '../
 import { getDevicePreset } from '../engine/responsiveEngine'
 import { exportProjectToJSON, importProjectFromJSON, generateReactCode } from '../engine/exportEngine'
 
-describe('Phase 21 — Final QA Complete Workflow Test', () => {
+describe('Complete Workflow Integration Test', () => {
   beforeEach(() => {
     useProjectStore.getState().newProject('QA Workflow Project')
     useSharedComponentStore.setState({ sharedComponents: [], instanceOverrides: {} })

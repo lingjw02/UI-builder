@@ -1,5 +1,5 @@
 // ============================================================
-// SHARED COMPONENTS PANEL — Phase 8
+// SHARED COMPONENTS PANEL
 // Panel in Left Panel for viewing and creating global shared components
 // ============================================================
 

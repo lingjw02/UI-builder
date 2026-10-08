@@ -1,5 +1,5 @@
 // ============================================================
-// TOOLBAR — Phase 1: Editor Shell
+// TOOLBAR
 // Top bar with mode switching, zoom, and project controls
 // ============================================================
 

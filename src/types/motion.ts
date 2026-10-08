@@ -1,5 +1,5 @@
 // ============================================================
-// MOTION & ANIMATION TYPES — Phase 13
+// MOTION & ANIMATION TYPES
 // Defines animation presets, easing curves, and motion configurations
 // ============================================================
 

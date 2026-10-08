@@ -1,6 +1,5 @@
 // ============================================================
 // STATUS BAR — Bottom bar with contextual info
-// Phase 1: Editor Shell
 // ============================================================
 
 import React from 'react'

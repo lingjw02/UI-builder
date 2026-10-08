@@ -1,5 +1,5 @@
 // ============================================================
-// STATES PANEL — Phase 9
+// STATES PANEL
 // Right Panel "States" tab: view and switch component states in design mode
 // ============================================================
 

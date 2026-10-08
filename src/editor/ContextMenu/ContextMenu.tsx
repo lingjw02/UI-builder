@@ -1,7 +1,6 @@
 // ============================================================
-// CONTEXT MENU — Phase 7 + 8
-// Right-click contextual actions
-// Architecture Rule A: shares the same document model as Right Panel
+// CONTEXT MENU
+// Right-click contextual actions for canvas elements
 // ============================================================
 
 import React, { useEffect, useRef } from 'react'

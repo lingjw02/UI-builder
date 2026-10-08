@@ -1,5 +1,5 @@
 // ============================================================
-// MOCK DATA PANEL — Phase 14
+// MOCK DATA PANEL
 // Left Panel API/Mock Data tab: view and create simulated endpoints & request logs
 // ============================================================
 

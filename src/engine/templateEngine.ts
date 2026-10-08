@@ -1,5 +1,5 @@
 // ============================================================
-// TEMPLATE ENGINE — Phase 17
+// TEMPLATE ENGINE
 // Production prototype templates composed of native document components
 // ============================================================
 

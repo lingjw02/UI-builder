@@ -1,13 +1,9 @@
 // ============================================================
-// FLOW EDITOR — Phase 11
+// FLOW EDITOR
 // Visual page flow graph — shown in "Flow" editor mode
 //
 // Renders pages as nodes and flow connections as arrows.
 // Users can drag pages, click to select, and draw connections.
-//
-// NOTE: This is a custom lightweight graph renderer.
-// React Flow / xyflow could be adopted in a future phase
-// for more advanced flow editing (Phase 11 extension).
 // ============================================================
 
 import React, { useRef, useState } from 'react'
@@ -19,7 +15,7 @@ import { cn } from '../../lib/utils'
 
 // ─────────────────────────────────────────
 // Node position (stored locally, not in document model yet)
-// TODO Phase 11+: persist node positions in project settings
+// TODO: persist node positions in project settings
 // ─────────────────────────────────────────
 
 const NODE_WIDTH = 180

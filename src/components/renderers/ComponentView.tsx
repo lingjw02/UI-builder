@@ -1,7 +1,6 @@
 // ============================================================
 // COMPONENT VIEW — Unified Component Visual Renderer
 // Shared between Design Canvas and Prototype Runtime
-// Phase 16: Component Library Expansion
 // ============================================================
 
 import React from 'react'

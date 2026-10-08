@@ -1,6 +1,6 @@
 // ============================================================
 // GRID PANEL — Right Panel Layout Tab
-// Phase 6: Grid configuration in the Right Panel
+// Grid configuration in the Right Panel
 // ============================================================
 
 import React from 'react'
@@ -193,7 +193,7 @@ export const GridPanel: React.FC<GridPanelProps> = ({ pageId, frameId, frame }) 
 
       {layoutMode === 'auto' && (
         <section>
-          <p className="text-xs text-[#585b70]">Auto Layout configuration — Phase 3 extension</p>
+          <p className="text-xs text-[#585b70]">Auto Layout configuration</p>
         </section>
       )}
     </div>

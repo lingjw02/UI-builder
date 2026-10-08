@@ -1,5 +1,5 @@
 // ============================================================
-// LAYOUT ENGINE — Phase 3
+// LAYOUT ENGINE
 // Converts logical grid positions → pixel coordinates
 // Handles collision detection, footprint placement, auto-placement
 // ============================================================

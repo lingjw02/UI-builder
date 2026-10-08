@@ -1,7 +1,6 @@
 // ============================================================
-// AI UI GENERATOR ENGINE — Phase 18
+// AI UI GENERATOR ENGINE
 // Transforms natural language prompts into document model operations
-// Architecture Rule: AI manipulates the exact same canonical document model
 // ============================================================
 
 import { v4 as uuidv4 } from 'uuid'

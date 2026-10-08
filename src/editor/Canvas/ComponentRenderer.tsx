@@ -1,6 +1,5 @@
 // ============================================================
 // COMPONENT RENDERER — Renders a ComponentInstance on the canvas
-// Phase 4: Component System
 // ============================================================
 
 import React from 'react'

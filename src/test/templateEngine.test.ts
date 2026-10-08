@@ -1,5 +1,5 @@
 // ============================================================
-// TEMPLATE ENGINE TESTS — Phase 17
+// TEMPLATE ENGINE TESTS
 // ============================================================
 
 import { describe, it, expect } from 'vitest'
@@ -11,7 +11,7 @@ import {
   loadTemplateProject,
 } from '../engine/templateEngine'
 
-describe('Phase 17 — Template Engine', () => {
+describe('Template Engine', () => {
   it('has metadata for SaaS, AI, and Auth templates', () => {
     const ids = TEMPLATES_METADATA.map(t => t.id)
     expect(ids).toContain('saas-dashboard')

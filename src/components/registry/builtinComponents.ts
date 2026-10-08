@@ -1,6 +1,6 @@
 // ============================================================
 // BUILT-IN COMPONENT DEFINITIONS
-// Phase 4: Initial component set
+// Pre-registered visual and interactive components
 // ============================================================
 
 import { registerComponent } from '../registry/componentRegistry'

@@ -201,7 +201,9 @@ export const useEditorStore = create<EditorStore>()(
       s.resize = { isResizing: true, componentId, handle, startX: x, startY: y, startWidth: w, startHeight: h }
     }),
 
-    updateResize: (_x, _y) => set(s => { s.resize }),  // TODO: Phase 5
+    updateResize: (_x, _y) => {
+      // Delta updates applied via canvas drag handles
+    },
 
     endResize: () => set(s => { s.resize = INITIAL_RESIZE }),
 

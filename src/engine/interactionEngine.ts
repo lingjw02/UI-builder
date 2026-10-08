@@ -1,5 +1,5 @@
 // ============================================================
-// INTERACTION ENGINE — Phase 10
+// INTERACTION ENGINE
 // Executes interactions: trigger → action → effect
 //
 // This engine is used in BOTH:
@@ -14,7 +14,7 @@ import type { Interaction, TriggerType, ActionType } from '../types'
 
 // ─────────────────────────────────────────
 // Runtime Context
-// (provided by the Prototype Runtime in Phase 12)
+// (provided by the Prototype Runtime)
 // ─────────────────────────────────────────
 
 export interface RuntimeContext {

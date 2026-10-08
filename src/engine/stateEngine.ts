@@ -1,5 +1,5 @@
 // ============================================================
-// STATE ENGINE — Phase 9
+// STATE ENGINE
 // Manages component state transitions in both Design and Preview modes
 //
 // States are first-class objects defined per ComponentDefinition.

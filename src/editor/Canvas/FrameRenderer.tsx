@@ -1,6 +1,5 @@
 // ============================================================
 // FRAME RENDERER — Renders a Frame on the canvas with its grid
-// Phase 3: Frame & Layout Engine
 // ============================================================
 
 import React, { useRef } from 'react'

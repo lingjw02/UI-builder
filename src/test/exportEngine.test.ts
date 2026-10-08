@@ -1,5 +1,5 @@
 // ============================================================
-// EXPORT & PERSISTENCE ENGINE TESTS — Phase 19
+// EXPORT & PERSISTENCE ENGINE TESTS
 // ============================================================
 
 import { describe, it, expect } from 'vitest'
@@ -10,7 +10,7 @@ import {
 } from '../engine/exportEngine'
 import { createProject, createPage, createFrame, createComponentInstance } from '../store/projectFactory'
 
-describe('Phase 19 — Export & Persistence Engine', () => {
+describe('Export & Persistence Engine', () => {
   it('serializes and deserializes a project losslessly', () => {
     const project = createProject('My Prototyping App')
     const frame = createFrame({ name: 'Desktop View' })

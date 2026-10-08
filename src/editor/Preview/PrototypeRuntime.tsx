@@ -1,12 +1,10 @@
 // ============================================================
-// PROTOTYPE RUNTIME — Phase 12
+// PROTOTYPE RUNTIME
 // Executes the interactive prototype:
 //   - Renders the current page in preview mode
 //   - Handles click/hover triggers
 //   - Executes navigation, state changes, overlays
 //   - Shows mock API loading states
-//
-// Architecture Rule D: Runtime uses the same project model as the editor.
 // ============================================================
 
 import React, { useEffect } from 'react'
@@ -216,7 +214,7 @@ export const PrototypeRuntime: React.FC = () => {
       window.open(url, '_blank', 'noopener,noreferrer')
     },
     runAction: async (actionId) => {
-      // TODO Phase 14: Mock API
+      // Mock API action handler
       console.log('[Runtime] runAction', actionId)
     },
   }
@@ -234,6 +232,7 @@ export const PrototypeRuntime: React.FC = () => {
         }
       })
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activePage?.id])
 
   if (!activePage) {

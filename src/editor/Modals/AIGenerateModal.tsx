@@ -1,7 +1,7 @@
 // ============================================================
-// AI GENERATOR MODAL — Phase 18
+// AI GENERATOR MODAL
 // Natural Language to UI Prototyping
-// Architecture Rule: Directly synthesizes canonical document model elements
+// Synthesizes canonical document model elements
 // ============================================================
 
 import React, { useState } from 'react'

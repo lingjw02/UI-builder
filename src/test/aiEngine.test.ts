@@ -1,11 +1,11 @@
 // ============================================================
-// AI UI GENERATOR TESTS — Phase 18
+// AI UI GENERATOR TESTS
 // ============================================================
 
 import { describe, it, expect } from 'vitest'
 import { generateUIFromPrompt } from '../engine/aiEngine'
 
-describe('Phase 18 — AI UI Generator Engine', () => {
+describe('AI UI Generator Engine', () => {
   it('generates 3-tier pricing layout for pricing prompt', () => {
     const plan = generateUIFromPrompt('Create a modern SaaS pricing page with 3 tiers')
     expect(plan.title).toContain('Pricing')

@@ -1,5 +1,5 @@
 // ============================================================
-// STRESS & RELIABILITY TESTS — Phase 20
+// STRESS & RELIABILITY TESTS
 // Tests 100, 500, 1,000 components, malformed data, and memory bounds
 // ============================================================
 
@@ -9,7 +9,7 @@ import { getAllCellGeometries, getComponentPixelRect } from '../engine/layoutEng
 import { importProjectFromJSON, exportProjectToJSON } from '../engine/exportEngine'
 import type { Frame } from '../types'
 
-describe('Phase 20 — Stress & Reliability', () => {
+describe('Stress & Reliability', () => {
   it('handles 100 components in a frame and calculates layout geometries within 50ms', () => {
     const frame: Frame = createFrame({
       id: 'stress-100',

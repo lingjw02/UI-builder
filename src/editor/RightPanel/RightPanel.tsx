@@ -1,6 +1,5 @@
 // ============================================================
 // RIGHT PANEL — Properties, Layout, Grid, States, Interactions
-// Phase 6 + 9 + 10
 // ============================================================
 
 import React from 'react'

@@ -1,6 +1,6 @@
 // ============================================================
 // EDITOR — Main editor layout shell
-// Phase 1 + 11 + 12: Design / Flow / Preview mode routing
+// Design / Flow / Preview mode routing
 // ============================================================
 
 import React, { useEffect } from 'react'
@@ -48,6 +48,7 @@ export const Editor: React.FC = () => {
       const startPage = project.pages.find(p => p.id === activePageId) ?? project.pages[0]
       resetNavigation(startPage.id)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode])
 
   // Global keyboard shortcuts

@@ -1,5 +1,5 @@
 // ============================================================
-// EXPORT & PERSISTENCE ENGINE — Phase 19
+// EXPORT & PERSISTENCE ENGINE
 // Manages:
 //   1. JSON project import / export / localStorage auto-save
 //   2. Clean, production-ready React + Tailwind CSS code generation
@@ -7,7 +7,7 @@
 
 import type { Project, Frame, ComponentInstance } from '../types'
 
-const LOCAL_STORAGE_KEY = 'antigravity_proto_ide_project_v1'
+const LOCAL_STORAGE_KEY = 'proto_ide_project_v1'
 
 // ─────────────────────────────────────────
 // Persistence (JSON & LocalStorage)

@@ -1,6 +1,6 @@
 // ============================================================
 // TEMPLATES PANEL — Left Panel Tab
-// Phase 17: Prototype Templates
+// Prototype Templates
 // ============================================================
 
 import React from 'react'

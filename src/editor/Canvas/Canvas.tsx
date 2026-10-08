@@ -1,6 +1,6 @@
 // ============================================================
 // CANVAS — Main editing area
-// Phase 1: Editor Shell + Phase 5: Drag/Drop
+// Drag-and-drop visual design surface
 // ============================================================
 
 import React, { useRef, useCallback } from 'react'

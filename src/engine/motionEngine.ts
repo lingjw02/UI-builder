@@ -1,7 +1,6 @@
 // ============================================================
-// MOTION ENGINE — Phase 13
+// MOTION ENGINE
 // Generates CSS keyframe rules, transitions, and spring physics
-// Architecture Rule D: Runtime uses the same motion model as editor
 // ============================================================
 
 import type { MotionConfig, AnimationEasing } from '../types'
